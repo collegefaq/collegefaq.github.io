@@ -4,3 +4,33 @@
     font-family: "Ubuntu";
 }
 
+#apply {
+    padding-top: 220px;
+}
+
+.sectionheader {
+    text-align:center;
+    font-weight:bold;
+    font-size:24px;
+    background-color:#eeeeee;
+}
+
+h4 {
+    text-align:center;
+}
+
+.entry {
+    display:flex;
+    justify-content:space-around;
+}
+
+.entry div {
+    width:50%;
+}
+
+a.anchor {
+    display:block;
+    top:-220px;
+    position:relative;
+    visibility:hidden;
+}
